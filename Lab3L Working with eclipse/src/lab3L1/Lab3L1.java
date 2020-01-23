@@ -2,6 +2,7 @@
  * COSC 1337 002
  * 1/16/2020
  * Purpose: To test SimpleDate (Lab3L1)
+ * Insight: Because it is referencing the same object.
  * */
 package lab3L1;
 
@@ -33,6 +34,17 @@ public class Lab3L1 {
 		
 		System.out.println(defaultDate.getMonth() + "/" + defaultDate.getDay() + " of the year " + 
 						   defaultDate.getYear());
+		
+		//using toString  Automatically calls toString() method.
+		System.out.println(teddyBearDebut);  
+		System.out.println(pocahontasMarried);
+		System.out.println(yosemiteNamedNationalPark);
+		System.out.println(warof1812starts);
+		System.out.println(theForgottenWarStarts);
+		System.out.println(daveWinsAtTicTacToe);
+		System.out.println(defaultDate);
+
+	
 		
 		
 	}
